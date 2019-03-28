@@ -1,4 +1,5 @@
 [Plugins]
+minimizeallEnabled=true
 kwin4_effect_loginEnabled=false
 
 [Windows]

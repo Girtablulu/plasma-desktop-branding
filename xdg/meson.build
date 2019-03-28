@@ -13,8 +13,10 @@ xdg_data = [
     'ksplashrc',
     'kwinrc',
     'kwinrulesrc',
+    'plasma-org.kde.plasma.desktop-appletsrc',
     'plasmarc',
     'spectaclerc',
+    'systemsettingsrc',
     'touchpadrc',
 ]
 
