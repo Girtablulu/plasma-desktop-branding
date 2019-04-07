@@ -1,11 +1,13 @@
 [General]
 ColorScheme=BreezeDark
 Name=Breeze Dark
+widgetStyle=breeze
 
 [Icons]
-Theme=breeze
+Theme=breeze-dark
 
 [KDE]
+ColorScheme=Breeze Dark
 ChangeCursor=true
 LookAndFeelPackage=org.kde.breezedark.desktop
 contrast=4
