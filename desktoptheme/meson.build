@@ -1,5 +1,5 @@
 desktop_dir = join_paths(path_datadir, 'plasma', 'desktoptheme', 'solus-dark')
-user_dir = join_paths(path_datadir, 'plasma', 'desktoptheme', 'solus-dark', 'icons')
+icon_dir = join_paths(path_datadir, 'plasma', 'desktoptheme', 'solus-dark', 'icons')
 
 install_data(
     'colors',
@@ -8,6 +8,6 @@ install_data(
 )
 
 install_data(
-    'user.svg',
-    install_dir: user_dir,
+    'start.svg',
+    install_dir: icon_dir,
 )
