@@ -8,6 +8,6 @@ install_data(
 )
 
 install_data(
-    'start.svh'),
+    'start.svg',
     install_dir: icon_dir,
 )
