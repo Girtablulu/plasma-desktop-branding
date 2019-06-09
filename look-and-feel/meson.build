@@ -1,5 +1,6 @@
 solusdark_dir = join_paths(path_datadir, 'plasma', 'look-and-feel', 'solusdark.desktop')
 contents_dir = join_paths(path_datadir, 'plasma', 'look-and-feel', 'solusdark.desktop', 'contents')
+preview_dir = join_paths(path_datadir, 'plasma', 'look-and-feel', 'solusdark.desktop', 'contents', 'previews')
 
 install_data(
     'metadata.desktop',
@@ -10,4 +11,9 @@ install_data(
 install_data(
     'defaults',
     install_dir: contents_dir,
+)
+
+install_data(
+    'preview.png',
+    install_dir: preview_dir,
 )
