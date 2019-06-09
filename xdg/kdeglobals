@@ -1,11 +1,12 @@
 [General]
-ColorScheme=Breeze Dark
+ColorScheme=BreezeDark
 Name=Breeze Dark
 
 [Icons]
 Theme=breeze-dark
 
 [KDE]
+ColorScheme=Breeze Dark
 ChangeCursor=true
 LookAndFeelPackage=solusdark.desktop
 contrast=4
