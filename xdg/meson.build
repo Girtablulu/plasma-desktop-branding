@@ -11,7 +11,7 @@ xdg_data = [
     'klipperrc',
     'klaunchrc',
     'konversationrc',
-    'kscreenlockerrc'
+    'kscreenlockerrc',
     'ksplashrc',
     'kwinrc',
     'kwinrulesrc',
