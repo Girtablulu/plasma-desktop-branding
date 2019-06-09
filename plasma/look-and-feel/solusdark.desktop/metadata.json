@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "Solus Plasma"
+            }
+        ],
+        "Category": "",
+        "Description": "Solus Dark",
+        "Id": "solusark.desktop",
+        "License": "GPL-2.0",
+        "Name": "Solus Dark",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "0.1",
+        "Website": "https://www.getsol.us"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}
