@@ -22,9 +22,7 @@ endif
 
 subdir('applications')
 subdir('env')
-subdir('plasma')
 subdir('sddm')
-subdir('wallpapers')
 subdir('xdg')
 
 
