@@ -23,6 +23,7 @@ endif
 subdir('applications')
 subdir('env')
 subdir('sddm')
+subdir('wallpapers')
 subdir('xdg')
 
 

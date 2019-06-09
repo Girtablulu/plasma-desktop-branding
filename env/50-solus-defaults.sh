@@ -1,4 +1,4 @@
-# Begin /usr/share/xdg/plasma-workspace/env/50-ssh.sh
+# Begin /usr/share/xdg/plasma-workspace/env/50-solus-defaults.sh
 
 # Load agent if it isn't already
 if [ -z "${SSH_AGENT_PID}" ]; then
@@ -10,4 +10,4 @@ if [ -f /usr/bin/ksshaskpass ]; then
     export SSH_ASKPASS="/usr/bin/ksshaskpass"
 fi
 
-# End /usr/share/xdg/plasma-workspace/env/50-ssh.sh
+# End /usr/share/xdg/plasma-workspace/env/50-solus-defaults.sh
