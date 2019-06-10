@@ -7,9 +7,9 @@
         ],
         "Category": "",
         "Description": "Solus Dark",
-        "Id": "solusark.desktop",
+        "Id": "solusdark.desktop",
         "License": "GPL-2.0",
-        "Name": "Solus Dark",
+        "Name": "SolusDark",
         "ServiceTypes": [
             "Plasma/LookAndFeel"
         ],
