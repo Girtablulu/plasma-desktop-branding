@@ -5,7 +5,7 @@ ColorScheme=Breeze Dark
 Theme=breeze-dark
 
 [KDE]
-ColorScheme=Breeze Dark
+ColorScheme=BreezeDark
 ChangeCursor=true
 LookAndFeelPackage=solusdark.desktop
 contrast=4

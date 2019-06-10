@@ -14,6 +14,7 @@ install_data(
 )
 
 install_data(
+    'fullscreenpreview.jpg',
     'preview.png',
     install_dir: preview_dir,
 )
