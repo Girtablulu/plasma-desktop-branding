@@ -1,5 +1,5 @@
-sddm_dir = join_paths(path_datadir, 'sddm', 'themes', 'breeze-SolusDark')
-image_dir = join_paths(path_datadir, 'sddm', 'themes', 'breeze-SolusDark', 'components', 'artwork')
+sddm_dir = join_paths(path_datadir, 'sddm', 'themes', 'breeze')
+image_dir = join_paths(path_datadir, 'sddm', 'themes', 'breeze', 'components', 'artwork')
 
 install_data(
     'metadata.desktop',
