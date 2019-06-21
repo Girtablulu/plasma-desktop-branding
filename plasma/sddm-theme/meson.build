@@ -30,7 +30,7 @@ install_data(
 
 
 install_data(
-    'logout:primary.svgz',
+    'logout_primary.svgz',
     'restart_primary.svgz',
     'shutdown_primary.svgz',
     'sddm_background.png',
