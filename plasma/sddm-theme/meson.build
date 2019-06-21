@@ -4,7 +4,7 @@ artwork_dir= join_paths(path_datadir, 'sddm', 'themes', 'SolusDark for breeze', 
 
 install_data(
     'Background.qml',
-    'BreezeMenuStyle',
+    'BreezeMenuStyle.qml',
     'KeyboardButton.qml',
     'Login.qml',
     'Main.qml',
