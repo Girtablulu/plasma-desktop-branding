@@ -13,6 +13,7 @@ install_data(
 )
 
 install_data(
+	'sddmbackground.png',
     '1920x1080.png',
     install_dir: images_dir,
 )

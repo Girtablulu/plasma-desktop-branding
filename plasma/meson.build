@@ -1,5 +1,4 @@
 subdir('color-schemes')
 subdir('desktoptheme')
 subdir('look-and-feel')
-subdir('sddm-theme')
 subdir('wallpapers')
