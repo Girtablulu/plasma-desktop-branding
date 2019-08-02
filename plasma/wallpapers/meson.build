@@ -14,6 +14,5 @@ install_data(
 
 install_data(
     '1920x1080.png',
-    '5120x2880.png',
     install_dir: images_dir,
 )
