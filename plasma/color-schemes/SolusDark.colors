@@ -20,7 +20,7 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=77,77,77
-BackgroundNormal=27,27,27
+BackgroundNormal=35,35,35
 DecorationFocus=11,124,183
 DecorationHover=11,124,183
 ForegroundActive=11,124,183
@@ -62,7 +62,7 @@ ForegroundVisited=127,140,141
 
 [Colors:View]
 BackgroundAlternate=51,51,51
-BackgroundNormal=27,27,27
+BackgroundNormal=35,35,35
 DecorationFocus=11,124,183
 DecorationHover=11,124,183
 ForegroundActive=11,124,183
