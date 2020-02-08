@@ -1,3 +1,7 @@
 [SynPS/2 Synaptics TouchPad]
 disableWhileTyping=false
 tapToClick=true
+
+[Elan TouchPad]
+disableWhileTyping=false
+tapToClick=true
