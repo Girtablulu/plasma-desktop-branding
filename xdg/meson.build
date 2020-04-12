@@ -14,12 +14,12 @@ xdg_data = [
     'klaunchrc',
     'konversationrc',
     'kscreenlockerrc',
+    'ksmserverrc',
     'ksplashrc',
     'kwinrc',
     'kwinrulesrc',
     'plasmarc',
     'spectaclerc',
-    'touchpadxlibinputrc',
 ]
 
 xdg_dir = join_paths(path_datadir, 'xdg')
