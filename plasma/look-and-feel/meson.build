@@ -21,6 +21,6 @@ install_data(
 )
 
 install_data(
-    'org.kde.plasma-layout.js',
+    'org.kde.plasma.desktop-layout.js',
     install_dir: layouts_dir,
 )
