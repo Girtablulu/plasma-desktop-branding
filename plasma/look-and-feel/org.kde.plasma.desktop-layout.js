@@ -42,23 +42,10 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
-                            "PreloadWeight": "100",
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
                             "PreloadWeight": "100"
-                        },
-                        "/Configuration/Configuration/General": {
-                            "favoritesPortedToKAstats": "true"
-                        },
-                        "/Configuration/Configuration/Shortcuts": {
-                            "global": "Alt+F1"
                         },
                         "/Configuration/General": {
                             "favoritesPortedToKAstats": "true"
-                        },
-                        "/Configuration/Shortcuts": {
-                            "global": "Alt+F1"
                         },
                         "/Shortcuts": {
                             "global": "Alt+F1"
@@ -69,6 +56,9 @@ var layout = {
                 {
                     "config": {
                         "/": {
+                            "immutability": "1"
+                        },
+                        "/Configuration": {
                             "immutability": "1"
                         }
                     },
@@ -81,6 +71,9 @@ var layout = {
                         },
                         "/Configuration": {
                             "immutability": "1"
+                        },
+                        "/Configuration/Configuration": {
+                            "immutability": "1"
                         }
                     },
                     "plugin": "org.kde.plasma.systemtray"
@@ -92,6 +85,9 @@ var layout = {
                         },
                         "/Configuration": {
                             "immutability": "1"
+                        },
+                        "/Configuration/Configuration": {
+                            "immutability": "1"
                         }
                     },
                     "plugin": "org.kde.plasma.minimizeall"
@@ -102,6 +98,9 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration": {
                             "immutability": "1"
                         }
                     },
