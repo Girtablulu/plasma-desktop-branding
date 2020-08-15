@@ -22,8 +22,7 @@ var layout = {
                 },
                 "/General": {
                     "ToolBoxButtonState": "topcenter",
-                    "ToolBoxButtonX": "1059",
-                    "ToolBoxButtonY": "36"
+                    "ToolBoxButtonX": "1059"
                 },
                 "/Wallpaper/org.kde.image/General": {
                     "Image": "file:///usr/share/wallpapers/SolusPlasma/contents/images/2560x1440.jpg"
@@ -47,6 +46,9 @@ var layout = {
                         "/Configuration/General": {
                             "favoritesPortedToKAstats": "true"
                         },
+                        "/Configuration/Shortcuts": {
+                            "global": "Alt+F1"
+                        },
                         "/Shortcuts": {
                             "global": "Alt+F1"
                         }
@@ -57,9 +59,6 @@ var layout = {
                     "config": {
                         "/": {
                             "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
                         }
                     },
                     "plugin": "org.kde.plasma.icontasks"
@@ -67,12 +66,6 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
                             "immutability": "1"
                         }
                     },
@@ -82,12 +75,6 @@ var layout = {
                     "config": {
                         "/": {
                             "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
-                            "immutability": "1"
                         }
                     },
                     "plugin": "org.kde.plasma.minimizeall"
@@ -95,12 +82,6 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
                             "immutability": "1"
                         }
                     },
@@ -113,13 +94,9 @@ var layout = {
                     "immutability": "1",
                     "lastScreen": "0",
                     "wallpaperplugin": "org.kde.image"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "84",
-                    "DialogWidth": "2560"
                 }
             },
-            "height": 2,
+            "height": 2.5555555555555554,
             "hiding": "normal",
             "location": "bottom",
             "maximumLength": 142.22222222222223,
