@@ -24,6 +24,7 @@ subdir('applications')
 subdir('env')
 subdir('plasma')
 subdir('sddm')
+subdir('xdg')
 
 
 report = [
