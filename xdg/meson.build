@@ -9,7 +9,6 @@ xdg_data = [
     'kdeglobals',
     'klaunchrc',
     'klipperrc',
-    'klaunchrc',
     'konversationrc',
     'kscreenlockerrc',
     'ksmserverrc',
