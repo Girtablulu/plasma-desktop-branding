@@ -24,7 +24,7 @@ endif
 # Solus install paths
 
 # path_desktoptheme = join_paths(path_datadir, 'plasma', 'desktoptheme', 'solus-dark')
-path_desktoptheme = join_paths('path_datadir/plasma/desktoptheme/solus-dark')
+path_desktoptheme = join_paths(path_datadir, '/plasma/desktoptheme/solus-dark')
 path_lookandfeel = join_paths(path_datadir,  'plasma', 'look-and-feel', 'solusdark.desktop')
 path_wallpapers = join_paths(path_datadir, 'wallpapers', 'SolusPlasma')
 path_sddm = join_paths(path_datadir, 'sddm', 'sddm.conf.d')
