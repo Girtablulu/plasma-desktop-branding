@@ -61,7 +61,7 @@ xdg_files = [
 # Install files
 
 install_data(['applications/kde-mimeapps.list'],
-    install_dir : join_paths(path_datadir), 'applications'
+    install_dir : join_paths(path_datadir, 'applications')
 )
 
 install_data(['env/50-solus-defaults.sh'],
