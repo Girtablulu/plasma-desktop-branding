@@ -1,0 +1,1 @@
+subdir('sddm.conf.d')
