@@ -1,4 +1,4 @@
-install_data(
+xdg_data = [
     'baloofilerc',
     'breezerc',
     'dolphinrc',
@@ -9,6 +9,7 @@ install_data(
     'kdeglobals',
     'klaunchrc',
     'klipperrc',
+    'klaunchrc',
     'konversationrc',
     'kscreenlockerrc',
     'ksmserverrc',
@@ -17,6 +18,11 @@ install_data(
     'kwinrulesrc',
     'plasmarc',
     'spectaclerc',
-)
+]
 
-subdir('plasma-workspace')
+xdg_dir = join_paths(path_datadir, 'xdg')
+
+install_data(
+    xdg_data,
+    install_dir: xdg_dir,
+)

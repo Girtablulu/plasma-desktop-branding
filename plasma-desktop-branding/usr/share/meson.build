@@ -1,5 +1,0 @@
-subdir('applications')
-subdir('color-schemes')
-subdir('plasma')
-subdir('sddm')
-subdir('xdg')

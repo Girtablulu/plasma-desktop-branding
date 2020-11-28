@@ -1,0 +1,1 @@
+option('with-env-dir', description: 'Plasma Workspace env directory', type: 'string')
