@@ -24,7 +24,7 @@ endif
 # Solus install paths
 
 path_desktoptheme = join_paths(path_datadir, 'plasma', 'desktoptheme', 'solus-dark')
-path_lookandfeel = join_paths(path_datadir,  'plasma', 'look-and-feel')
+path_lookandfeel = join_paths(path_datadir,  'plasma', 'look-and-feel', 'solusdark.desktop')
 path_wallpapers = join_paths(path_datadir, 'wallpapers', 'SolusPlasma')
 path_sddm = join_paths(path_datadir, 'sddm', 'sddm.conf.d')
 
@@ -61,7 +61,7 @@ xdg_files = [
 # Install files
 
 install_data(['applications/kde-mimeapps.list'],
-    install_dir : join_paths(path_datadir)
+    install_dir : join_paths(path_datadir), 'applications'
 )
 
 install_data(['env/50-solus-defaults.sh'],
