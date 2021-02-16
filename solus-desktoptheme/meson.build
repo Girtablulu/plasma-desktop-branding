@@ -1,5 +1,6 @@
 # Install color-schemes
-install_data('color-schemes/SolusDark.colors',
+install_data(
+    'color-schemes/SolusDark.colors',
     install_dir: join_paths(path_datadir, 'color-schemes')
 )
 
@@ -7,7 +8,7 @@ install_data('color-schemes/SolusDark.colors',
 install_data(
     'desktoptheme/colors',
     'desktoptheme/metadata.desktop',
-        install_dir: join_paths(path_datadir, 'plasma', 'desktoptheme', 'solus-dark')
+    install_dir: join_paths(path_datadir, 'plasma', 'desktoptheme', 'solus-dark')
 )
 
 # Install look and feel
@@ -16,7 +17,8 @@ install_data(
     'look-and-feel/metadata.json',
     install_dir: join_paths(path_datadir, 'plasma', 'look-and-feel', 'solusdark.desktop')
 )
-install_data('look-and-feel/defaults',
+install_data(
+    'look-and-feel/defaults',
     install_dir: join_paths(path_datadir, 'plasma', 'look-and-feel', 'solusdark.desktop', 'contents')
 )
 install_data(
@@ -25,12 +27,26 @@ install_data(
     install_dir: join_paths(path_datadir, 'plasma', 'look-and-feel', 'solusdark.desktop', 'contents', 'previews')
 )
 
+# Install layout-templates
+installdaata(
+    'layout-templates/metadata.json',
+    'layout-templates/metadata.desktop',
+    install_dir: join_paths(path_datadir, 'plasma', 'getsol.us.desktop.defaultPanel')
+)
+
+installdaata(
+    'layout-templates/layout.js',
+    install_dir: join_paths(path_datadir, 'plasma', 'getsol.us.desktop.defaultPanel', 'contents')
+)
+
 # Install wallpapers
-install_data('wallpapers/metadata.desktop',
+install_data(
+    'wallpapers/metadata.desktop',
     install_dir: join_paths(path_datadir, 'wallpapers', 'SolusPlasma')
 )
 
-install_data('wallpapers/screenshot.jpg',
+install_data(
+    'wallpapers/screenshot.jpg',
     install_dir: join_paths(path_datadir, 'wallpapers', 'SolusPlasma', 'contents')
 )
 
