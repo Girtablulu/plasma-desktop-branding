@@ -34,7 +34,7 @@ install_data(
     install_dir: join_paths(path_datadir, 'plasma', 'getsol.us.desktop.defaultPanel')
 )
 
-installdaata(
+install_data(
     'layout-templates/layout.js',
     install_dir: join_paths(path_datadir, 'plasma', 'getsol.us.desktop.defaultPanel', 'contents')
 )
