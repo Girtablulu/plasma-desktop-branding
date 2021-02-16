@@ -28,7 +28,7 @@ install_data(
 )
 
 # Install layout-templates
-installdaata(
+install_data(
     'layout-templates/metadata.json',
     'layout-templates/metadata.desktop',
     install_dir: join_paths(path_datadir, 'plasma', 'getsol.us.desktop.defaultPanel')
