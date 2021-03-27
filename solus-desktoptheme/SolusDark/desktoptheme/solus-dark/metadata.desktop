@@ -1,10 +1,10 @@
 [DesktopEntry]
-Comment=SolusDark
 Name=SolusDark
-X-KDE-PluginInfo-Author=Friedrich von Gellhorn
-X-KDE-PluginInfo-Email=flinux@vongellhorn.ch
+Comment=SolusDark
+X-KDE-PluginInfo-Author=Solus Plasma
+X-KDE-PluginInfo-Email=
 X-KDE-PluginInfo-License=Appache-2.0
-X-KDE-PluginInfo-Name=solus-dark
+X-KDE-PluginInfo-Name=solusdark
 X-KDE-PluginInfo-Version=0.1
 X-KDE-PluginInfo-Website=https://getsol.us
 X-Plasma-Api=5.0
